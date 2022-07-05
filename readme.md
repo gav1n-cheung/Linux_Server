@@ -96,7 +96,7 @@ lseek 对文件指针进行偏移操作，可以获取文件长度，扩展文�
 stat/lstat 获取文件属性
 ```
 ### 自己写一个ls l命令
-[这里]()查看代码
+[这里](https://github.com/gav1n-cheung/Linux_Server/tree/main/lession01_LinuxBasic/lession013_ls-l)查看代码
 ### 控制文件属性
 ```
 access 与输入的宏对比得到是否有该权限
@@ -117,7 +117,7 @@ opendir 打开目录
 readdir 读取目录内容,返回一个struct,内有读到的文件信息，可以通过宏来找到特定类型的文件和目录
 close 关闭目录
 ```
-[这里]()查看代码
+[这里](https://github.com/gav1n-cheung/Linux_Server/tree/main/lession01_LinuxBasic/lession016_dir_view)查看代码
 ### dup和dup2控制文件描述符
 ```
 dup 复制一个文件描述符到一个新的文件描述符，当然会占用一个新的文件描述符，我们也可以通过新的文件描述符来修改复制的文件描述符指向的文件，并且close一次即可关闭所有指向该文件的文件描述符(实验通过,再通过旧的文件描述符进行write操作是不合法的--write: Bad file descriptor)
