@@ -28,9 +28,9 @@ export LD_LIBRARY_PATH = $LD_LIBRARY_PATH:your_path
 source ~/.bashrc
 ```
 ### 静态库和动态库的区别
-![静态库和动态库的优缺点]()
+[静态库和动态库的优缺点](https://github.com/gav1n-cheung/Linux_Server/blob/main/lession01_LinuxBasic/lession06_static_vs_nonstatic/vs.md)
 ### makefile
-![如何读和写makefile]()
+[如何读和写makefile](https://github.com/gav1n-cheung/Linux_Server/blob/main/lession01_LinuxBasic/lession07_makefile/makefile.md)
 ### GDB调试
 ```
 # 在gcc中加入参数-g以进行GDB调试,加入-Wall参数尽量打开warning
